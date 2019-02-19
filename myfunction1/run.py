@@ -15,22 +15,18 @@ from AzureHTTPHelper import HTTPHelper
 http = HTTPHelper()
 
 # All these print statements get sent to the Azure Functions live log
-print "--- GET ---"
-print http.get
-print
+print("--- GET ---")
+print(http.get)
 
-print "--- POST ---"
-print http.post
-print
+print("--- POST ---")
+print(http.post)
 
-print "--- HEADERS ---"
-print http.headers
-print
+print("--- HEADERS ---")
+print(http.headers)
 
-print "--- OTHER ENVIRONMENTAL VARIABLES ---"
+print("--- OTHER ENVIRONMENTAL VARIABLES ---")
 for x in http.env:
-    print x
-print
+    print(x)
 
 
 # All data to be returned to the client gets put into this dict
