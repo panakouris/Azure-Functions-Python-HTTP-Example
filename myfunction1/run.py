@@ -18,15 +18,15 @@ http = HTTPHelper()
 print("--- GET ---")
 print(http.get)
 
-print("--- POST ---")
-print(http.post)
+#print("--- POST ---")
+#print(http.post)
 
-print("--- HEADERS ---")
-print(http.headers)
+#print("--- HEADERS ---")
+#print(http.headers)
 
-print("--- OTHER ENVIRONMENTAL VARIABLES ---")
-for x in http.env:
-    print(x)
+#print("--- OTHER ENVIRONMENTAL VARIABLES ---")
+#for x in http.env:
+#    print(x)
 
 
 # All data to be returned to the client gets put into this dict
